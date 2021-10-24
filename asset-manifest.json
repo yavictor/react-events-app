@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Events-App/static/css/main.535a57f0.chunk.css",
-    "main.js": "/React-Events-App/static/js/main.cb8c0a14.chunk.js",
-    "main.js.map": "/React-Events-App/static/js/main.cb8c0a14.chunk.js.map",
-    "runtime-main.js": "/React-Events-App/static/js/runtime-main.9af278b3.js",
-    "runtime-main.js.map": "/React-Events-App/static/js/runtime-main.9af278b3.js.map",
-    "static/js/2.a649e487.chunk.js": "/React-Events-App/static/js/2.a649e487.chunk.js",
-    "static/js/2.a649e487.chunk.js.map": "/React-Events-App/static/js/2.a649e487.chunk.js.map",
-    "static/js/3.a76720a4.chunk.js": "/React-Events-App/static/js/3.a76720a4.chunk.js",
-    "static/js/3.a76720a4.chunk.js.map": "/React-Events-App/static/js/3.a76720a4.chunk.js.map",
-    "index.html": "/React-Events-App/index.html",
-    "static/css/main.535a57f0.chunk.css.map": "/React-Events-App/static/css/main.535a57f0.chunk.css.map",
-    "static/js/2.a649e487.chunk.js.LICENSE.txt": "/React-Events-App/static/js/2.a649e487.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/React-Events-App/static/media/Avenir-Medium.efe1fd0d.woff2"
+    "main.css": "/react-events-app/static/css/main.bd5cccd4.chunk.css",
+    "main.js": "/react-events-app/static/js/main.cb8c0a14.chunk.js",
+    "main.js.map": "/react-events-app/static/js/main.cb8c0a14.chunk.js.map",
+    "runtime-main.js": "/react-events-app/static/js/runtime-main.3fe70258.js",
+    "runtime-main.js.map": "/react-events-app/static/js/runtime-main.3fe70258.js.map",
+    "static/js/2.a649e487.chunk.js": "/react-events-app/static/js/2.a649e487.chunk.js",
+    "static/js/2.a649e487.chunk.js.map": "/react-events-app/static/js/2.a649e487.chunk.js.map",
+    "static/js/3.a76720a4.chunk.js": "/react-events-app/static/js/3.a76720a4.chunk.js",
+    "static/js/3.a76720a4.chunk.js.map": "/react-events-app/static/js/3.a76720a4.chunk.js.map",
+    "index.html": "/react-events-app/index.html",
+    "static/css/main.bd5cccd4.chunk.css.map": "/react-events-app/static/css/main.bd5cccd4.chunk.css.map",
+    "static/js/2.a649e487.chunk.js.LICENSE.txt": "/react-events-app/static/js/2.a649e487.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-events-app/static/media/Avenir-Medium.efe1fd0d.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.9af278b3.js",
+    "static/js/runtime-main.3fe70258.js",
     "static/js/2.a649e487.chunk.js",
-    "static/css/main.535a57f0.chunk.css",
+    "static/css/main.bd5cccd4.chunk.css",
     "static/js/main.cb8c0a14.chunk.js"
   ]
 }
