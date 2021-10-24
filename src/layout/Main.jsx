@@ -14,13 +14,6 @@ const Main = () => {
     return [year, month, day];
   };
 
-  const months = events
-    .map((event) => {
-      const normalizedDate = normalizeDate(event.date);
-      return new Date(...normalizedDate);
-    })
-    .map((date) => date.getMonth());
-
   const changeFav = (id) => {
     let temp = { ...favs };
     if (favs[id] === true) {
@@ -31,6 +24,13 @@ const Main = () => {
     setFav(temp);
     localStorage.setItem('favs', JSON.stringify(temp));
   };
+
+  const months = events
+    .map((event) => {
+      const normalizedDate = normalizeDate(event.date);
+      return new Date(...normalizedDate);
+    })
+    .map((date) => date.getMonth());
 
   const eventsWithMonths = events.map((event, i) => ({
     ...event,

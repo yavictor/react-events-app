@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 function CitiesList(props) {
   const { cities = [], filterRequest = Function.prototype } = props;
-
   const [citiesFilter, setFilter] = useState('');
 
   return (

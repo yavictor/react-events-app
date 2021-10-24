@@ -7,16 +7,6 @@
   font-style: normal;
 }
 
-/* @font-face {
-  font-family: 'Avenir';
-  src: url('./layout/fonts/Avenir-Heavy.woff2') format('woff2'),
-      url('./layout/fonts/Avenir-Heavy.woff') format('woff'),
-      url('./layout/fonts/Avenir-Heavy.ttf') format('truetype');
-  font-weight: 700;
-  /* font-weight: 900; */
-  /* font-style: normal; */
-/* } */
-
 @font-face {
   font-family: 'Avenir';
   src: url('./assets/fonts/Avenir-Black.woff2') format('woff2'),
