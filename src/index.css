@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Avenir';
   src: url('./assets/fonts/Avenir-Medium.woff2') format('woff2'),
-      url('./assets/fonts/Avenir-Medium.woff') format('woff'),
-      url('./assets/fonts/Avenir-Medium.ttf') format('truetype');
+    url('./assets/fonts/Avenir-Medium.woff') format('woff'),
+    url('./assets/fonts/Avenir-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
   font-family: 'Avenir';
   src: url('./assets/fonts/Avenir-Black.woff2') format('woff2'),
-      url('./assets/fonts/Avenir-Black.woff') format('woff'),
-      url('./assets/fonts/Avenir-Black.ttf') format('truetype');
+    url('./assets/fonts/Avenir-Black.woff') format('woff'),
+    url('./assets/fonts/Avenir-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
@@ -121,6 +121,7 @@ code {
   .events {
     grid-template-columns: repeat(1, 100%);
   }
+
   .selectors {
     flex-direction: column;
   }
@@ -131,6 +132,7 @@ code {
     margin: 0;
     padding: 20px;
   }
+
   .event-card {
     min-width: 200px;
     padding: 20px;

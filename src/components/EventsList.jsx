@@ -4,7 +4,7 @@ function EventsList(props) {
   const { events = [], changeFav = Function.prototype, favs = {} } = props;
 
   if (!events.length) {
-    return <h3>Sorry no events loaded</h3>;
+    return (<h3>Sorry no events loaded</h3>);
   }
   return (
     <div className="events">
