@@ -32,7 +32,7 @@ function MonthsList(props) {
       {' '}
       <option value="">-</option>
       {months.map((month) => (
-        <option key={month} value={month}>
+        <option key={month} value={month} className="input-option">
           {monthNames[month - 1]}
         </option>
       ))}

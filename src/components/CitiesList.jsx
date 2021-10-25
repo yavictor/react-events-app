@@ -15,7 +15,7 @@ function CitiesList(props) {
     >
       <option value="">-</option>
       {cities.map((city, i) => (
-        <option key={i} value={city}>
+        <option key={i} value={city}  className="input-option">
           {city}
         </option>
       ))}

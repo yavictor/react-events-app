@@ -1,0 +1,75 @@
+[1mdiff --git a/src/components/CitiesList.jsx b/src/components/CitiesList.jsx[m
+[1mindex 1f442a7..35a8efe 100644[m
+[1m--- a/src/components/CitiesList.jsx[m
+[1m+++ b/src/components/CitiesList.jsx[m
+[36m@@ -15,7 +15,7 @@[m [mfunction CitiesList(props) {[m
+     >[m
+       <option value="">-</option>[m
+       {cities.map((city, i) => ([m
+[31m-        <option key={i} value={city}>[m
+[32m+[m[32m        <option key={i} value={city}  className="input-option">[m
+           {city}[m
+         </option>[m
+       ))}[m
+[1mdiff --git a/src/components/MonthsList.jsx b/src/components/MonthsList.jsx[m
+[1mindex ca76438..04063e2 100644[m
+[1m--- a/src/components/MonthsList.jsx[m
+[1m+++ b/src/components/MonthsList.jsx[m
+[36m@@ -32,7 +32,7 @@[m [mfunction MonthsList(props) {[m
+       {' '}[m
+       <option value="">-</option>[m
+       {months.map((month) => ([m
+[31m-        <option key={month} value={month}>[m
+[32m+[m[32m        <option key={month} value={month} className="input-option">[m
+           {monthNames[month - 1]}[m
+         </option>[m
+       ))}[m
+[1mdiff --git a/src/index.css b/src/index.css[m
+[1mindex 20ca8ec..e76d031 100644[m
+[1m--- a/src/index.css[m
+[1m+++ b/src/index.css[m
+[36m@@ -19,6 +19,7 @@[m
+ body {[m
+   margin: 0;[m
+   background: #F0F3FF;[m
+[32m+[m[32m  color: #2E282C;[m
+   font-family: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',[m
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',[m
+     sans-serif;[m
+[36m@@ -41,7 +42,6 @@[m [mcode {[m
+ [m
+ .title {[m
+   margin: 0;[m
+[31m-  font-family: Avenir;[m
+   font-weight: 900;[m
+   font-size: 48px;[m
+   line-height: 66px;[m
+[36m@@ -51,7 +51,6 @@[m [mcode {[m
+   display: flex;[m
+   margin-top: 40px;[m
+   margin-bottom: 42px;[m
+[31m-  font-family: Avenir;[m
+   font-weight: 500;[m
+   font-size: 24px;[m
+   line-height: 33px;[m
+[36m@@ -64,7 +63,10 @@[m [mcode {[m
+   width: 200px;[m
+   height: 50px;[m
+   margin: 20px;[m
+[31m-[m
+[32m+[m[32m  padding: 8px 22px;[m
+[32m+[m[32m  cursor: pointer;[m
+[32m+[m[32m  font-size: 24px;[m
+[32m+[m[32m  line-height: 33px;[m
+ }[m
+ [m
+ .events {[m
+[36m@@ -85,8 +87,6 @@[m [mcode {[m
+   flex-direction: column;[m
+   justify-content: space-between;[m
+ [m
+[31m-  font-family: Avenir;[m
+[31m-  font-style: normal;[m
+   font-weight: 900;[m
+   font-size: 48px;[m
+   line-height: 66px;[m

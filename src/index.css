@@ -19,6 +19,7 @@
 body {
   margin: 0;
   background: #F0F3FF;
+  color: #2E282C;
   font-family: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -41,7 +42,6 @@ code {
 
 .title {
   margin: 0;
-  font-family: Avenir;
   font-weight: 900;
   font-size: 48px;
   line-height: 66px;
@@ -51,7 +51,6 @@ code {
   display: flex;
   margin-top: 40px;
   margin-bottom: 42px;
-  font-family: Avenir;
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
@@ -64,7 +63,10 @@ code {
   width: 200px;
   height: 50px;
   margin: 20px;
-
+  padding: 8px 22px;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 33px;
 }
 
 .events {
@@ -85,8 +87,6 @@ code {
   flex-direction: column;
   justify-content: space-between;
 
-  font-family: Avenir;
-  font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 66px;
